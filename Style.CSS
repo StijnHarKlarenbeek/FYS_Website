@@ -111,3 +111,12 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+.imageEntertainment{
+    
+    margin: auto;
+    max-width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-content: space-between;
+}
