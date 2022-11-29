@@ -62,7 +62,7 @@
     text-align: center;
     align-items: center;
     background-position: center;
-   
+    animation: fadeInAnimation ease 3s
     
 }
 
@@ -113,15 +113,18 @@ button:hover{
 }
 
 .imageEntertainment{
-    
+
     margin: auto;
     max-width: 240px;
     height: 240px;
     align-items: center;
     justify-content: space-between;
+    animation: fadeInAnimation ease 3s
 }
 
-body{
+
+
+.navbar{
     animation: fadeInAnimation ease 3s
 }
 
