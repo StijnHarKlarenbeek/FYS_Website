@@ -122,6 +122,11 @@ button:hover{
     animation: fadeInAnimation ease 3s
 }
 
+#YTLogo{
+    border-radius: 25%;
+    
+}
+
 .imageEntertainment:hover{
     transform: scale(1.1);
 }
