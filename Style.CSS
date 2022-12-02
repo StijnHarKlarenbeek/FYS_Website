@@ -9,6 +9,8 @@
     background-image: url(WallpapersLandingPagina_LoginPagina.jpg);
     background-size: cover;
     background-position: center;
+    align-items: center;
+    text-align: center;
 }
 
 .navbar{
@@ -17,6 +19,7 @@
     padding: 35px 0;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
 
 }
