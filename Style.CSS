@@ -132,6 +132,10 @@ button:hover{
     margin-top: 10vw;
 }
 
+#ww_c125aca3b3adb{
+    transform: scale(1.5);
+}
+
 .imageEntertainment:hover{
     transform: scale(1.1);
 }
