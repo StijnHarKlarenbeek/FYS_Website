@@ -93,18 +93,6 @@ button{
 
 }
 
-span{
-    background: black ;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-
 button:hover span{
     width: 100%;
 }
@@ -151,4 +139,37 @@ button:hover{
     100% {
     opacity: 1;
     }
+}
+
+.frontimage {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  position: relative;
+  opacity: 75%;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -5px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 80px;
+}
+.waviy span {
+  font-family: sans-serif;
+  position: yellow;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
 }
