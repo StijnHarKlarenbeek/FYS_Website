@@ -124,7 +124,12 @@ button:hover{
 
 #YTLogo{
     border-radius: 25%;
-    
+
+}
+
+.weather{
+    margin-left: 35vw;
+    margin-top: 10vw;
 }
 
 .imageEntertainment:hover{
