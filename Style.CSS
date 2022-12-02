@@ -122,7 +122,9 @@ button:hover{
     animation: fadeInAnimation ease 3s
 }
 
-
+.imageEntertainment:hover{
+    transform: scale(1.1);
+}
 
 .navbar{
     animation: fadeInAnimation ease 3s
