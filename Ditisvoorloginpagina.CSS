@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(WallpapersLandingPagina_LoginPagina.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.man{
+    
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    margin-left: 15vw;
+    margin-top: 25vw;
+    width: 16%;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    align-items: center;
+    background-position: center;
+   
+    
+}
+
+.content h1{
+    width: 50%;
+    font-size: 30px;
+    margin-top: 80px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    right: -25%;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color:  black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+ button{
+    background: black ;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover button{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
+.scherm{
+    width: 100%;
+    height: 100vh;
+    background-image: url(WallpapersLandingPagina_LoginPagina.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* LoginForm CSS */
+
+.inputButtons{
+    width: 250px;
+    text-align: center;
+    margin: 82px -10;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    background: white;
+    color:  black;    
+    overflow: hidden;
+    background-image: url(logincorendonlogo.png);
+    
+    
+}
+
+input:hover{
+    border: 2px solid rgb(157, 155, 238);
+
+}
+
+.inputForm{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+}
+
+input{
+    width: 100px;
+    height: 40px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 50px 8px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 2px solid black;
+    background: transparent;
+    color:  black;
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url(WallpapersLandingPagina_LoginPagina.jpg);
+}
+
+input[type=password]{
+    
+    position: relative;
+}
+
+input[type=submit]{
+    background-image: url(WallpapersLandingPagina_LoginPagina.jpg);
+}    
+
+::placeholder{
+    color: black;
+}
+
+@media  screen and (max-width:700px) {
+    
+}
