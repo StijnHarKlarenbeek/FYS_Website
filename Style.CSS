@@ -5,8 +5,8 @@
 }
 .banner{
     width: 100%;
-    height: 100%;
-    background-image: url(WallpaperSky.jpg);
+    height: 100vh;
+    background-image: url(WallpapersLandingPagina_LoginPagina.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -121,8 +121,6 @@ button:hover{
 
 .weather{
     margin-top: 10vw;
-    width: 100%;
-    height: 100vh;
 }
 
 #ww_c125aca3b3adb{
