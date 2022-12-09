@@ -176,3 +176,7 @@ button:hover{
     transform: translateY(-20px)
   }
 }
+
+.game{
+    transform: scale(0.5);
+}
