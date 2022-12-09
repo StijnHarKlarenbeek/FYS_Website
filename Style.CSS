@@ -19,17 +19,21 @@ html {
 }
 
 .navbar{
-    width: 85%;
+    width: 100%;
+    background-image: url(WallpaperSky.jpg);
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-
+    border: 1px solid aliceblue;
+    position: fixed;
+   
 }
 
 .logo{
+    margin-left: 5vw;
     width: 140px;
     cursor: pointer;
 }
