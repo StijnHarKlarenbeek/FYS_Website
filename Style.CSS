@@ -5,7 +5,7 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
+    height: 10vh;
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -129,10 +129,14 @@ button:hover{
 }
 
 .weather{
+    width: 100%;
+    background-position: center;
+    align-items: center;
+    text-align: center;
     margin-top: 10vw;
 }
 
-#ww_c125aca3b3adb{
+#ww_00f4f652395be{
     transform: scale(1.5);
 }
 
@@ -166,6 +170,10 @@ button:hover{
   position: relative;
   -webkit-box-reflect: below -5px linear-gradient(transparent, rgba(0,0,0,.2));
   font-size: 80px;
+  width: 100%;
+    background-position: center;
+    align-items: center;
+    text-align: center;
 }
 
 .waviy span {
